@@ -38,9 +38,3 @@ Feature: Login seguro con autenticación de dos factores
     And el intento fallido queda registrado en el historial de seguridad
     And el usuario permanece en la pantalla de inicio de sesión
     And no se concede acceso a ninguna funcionalidad de la plataforma
-
-    Examples:
-      | Usuario | Codigo | Mensaje |
-      | Carlos  | 111111 | Código de verificación inválido. |
-      | Ana     | 000000 | Código de verificación expirado. |
-      | Luis    | 123456 | Código de verificación inválido. |
