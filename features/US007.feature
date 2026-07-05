@@ -22,7 +22,7 @@ Feature: Visualización del avance del proyecto en tiempo real
       | Proyecto        | Porcentaje |
       | CodeCare        | 65%        |
       | LegacyERP       | 82%        |
-      | HospitalSystem  | 47%        |
+      | HospitalSystem  | 67%        |
 
   Scenario Outline: Consulta de métricas e incidencias del proyecto
     Given el jefe de proyecto accede al panel de métricas del proyecto "<Proyecto>"
